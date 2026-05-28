@@ -524,17 +524,3 @@ body {
 .popup23 .popup-bar {
 background: red;
 }
-
-
-.image-block.swapped .section-img.original {
-  opacity: 0 !important;
-}
-
-.image-block.swapped .section-img.hover,
-.image-block.swapped .section-img.hover-def-1,
-.image-block.swapped .section-img.hover-def-2,
-.image-block.swapped .section-img.hover-def-3 {
-  animation: glitch 0s !important;
-  opacity: 1 !important;
-  transform: translate(0,0) !important;
-}
