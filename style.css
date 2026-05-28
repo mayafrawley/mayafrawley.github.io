@@ -399,10 +399,6 @@ body {
   animation: glitch 1.2s steps(1) forwards;
 }
 
-.image-block:hover .section-img.hover-def-3 {
-  animation: glitch 1.2s steps(1) forwards;
-}
-
 
 @keyframes glitch {
   0%   { opacity: 0; transform: translate(0px, 0px); }
