@@ -51,7 +51,7 @@ body {
 .ten-box::after {
   content: '';
   position: absolute;
-  bottom: -10000px;
+  bottom: -7800px;
   left: 50%;
   width: 2px;
   height: 10000px;
@@ -519,4 +519,22 @@ body {
 .popup22 .popup-bar,
 .popup23 .popup-bar {
 background: red;
+}
+
+.end-statement {
+  text-align: center;
+  font-size: 18px;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 250px;
+}
+
+.colophon {
+  position: static;
+  margin-top: 100px;
+  bottom: 20px;
+  left: 60px;
+  font-size: 13.503px;
+  color: #ffffff;
+  line-height: 1.8;
 }
