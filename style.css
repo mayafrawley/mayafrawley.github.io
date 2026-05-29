@@ -51,10 +51,10 @@ body {
 .ten-box::after {
   content: '';
   position: absolute;
-  bottom: -7800px;
+  top: 100%;
   left: 50%;
   width: 2px;
-  height: 10000px;
+  height: 7800px;
   background-color: lime;
 }
 

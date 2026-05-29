@@ -161,11 +161,12 @@ for (let i = 0; i < imageBlocks.length; i++) {
 }
 
 const chapterList = document.querySelector('.chapter-list');
-const ending = document.querySelector('.colophon');
+const lastSection = document.querySelectorAll('.section');
+const lastOne = lastSection[lastSection.length - 1];
 
 window.addEventListener('scroll', () => {
-  const endingTop = ending.getBoundingClientRect().top;
-  if (endingTop < window.innerHeight + 1800) {
+  const lastTop = lastOne.getBoundingClientRect().top;
+  if (lastTop < window.innerHeight) {
     chapterList.style.display = 'none';
   } else {
     chapterList.style.display = 'block';
