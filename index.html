@@ -5,7 +5,11 @@
 
     <body>
 
-    
+<div class="popup popup-intro">
+  <div class="popup-bar">Welcome <span class="popup-x" onclick="this.closest('.popup').classList.remove('show')">✕</span></div>
+  <div class="popup-body">Thank you for joining us!<br><button class="popup-ok">Ok</button></div>
+</div>
+
 <div class="popup popup1">
   <div class="popup-bar">system error <span class="popup-x" onclick="this.closest('.popup').classList.remove('show')">✕</span></div>
   <div class="popup-body">you asked AI to write you an email.<br><button class="popup-ok">Ok</button></div>
@@ -18,7 +22,7 @@
 
 <div class="popup popup3">
   <div class="popup-bar">system error <span class="popup-x" onclick="this.closest('.popup').classList.remove('show')">✕</span></div>
-  <div class="popup-body">Time remaining: 0<br><button class="popup-ok">Ok</button></div>
+  <div class="popup-body">I thought we'd have more time.<br><button class="popup-ok">Ok</button></div>
 </div>
 
 <div class="popup popup4">
@@ -124,6 +128,7 @@
 <script>
 
 const popups = [
+  ["popup-intro", 3000],
   ["popup1", 13000],
   ["popup2", 15000],
   ["popup3", 50000]
@@ -181,19 +186,19 @@ for (let i = 0; i < imageBlocks.length; i++) {
 
   <div class="chapter-list">
     0. Innocence <br>
-    1. Questioning <br>
-    2. ???? <br>
-    3. Deforestation <br>
-    4. Excavation <br>
-    5. Energy <br>
-    6. Climate <br>
+    1. ??? <br>
+    2. Questioning <br>
+    3. ??? <br>
+    4. Hunger <br>
+    5. Greed <br>
+    6. No return <br>
     7. Error <br>
   </div>
 
 <div class="section hand-section">
-  <p class="text-hand-left">In 1977, Charles and Ray Eames made a film that zoomed from a human hand to the edge of the universe in nine minutes. Every ten seconds, ten times further away. <br> It was about scale. It was about <span class="highlight1">wonder.</span>
+  <p class="text-hand-left">In 1977, Charles and Ray Eames made a film that zoomed from a human hand to the edge of the universe in nine minutes. Every ten seconds, ten times further away. <br> It was about scale. <br> It was about <span class="highlight1">wonder.</span>
 <br><br>   
- The same zoom reveals something else. A query typed into a chatbox. A data centre consuming a towns' water supply. A planet that looks fine from a million meters up.<br> It is not fine.</p>
+ The same zoom reveals something else. A query typed into a chatbox. A data centre consuming a towns' water supply. A planet that looks fine from a million meters up.<br> It is not <span class="highlight2">fine</span></p>
 
   <div class="image-block">
     <div class="img-wrap">
